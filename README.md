@@ -8,12 +8,19 @@
   - There was an error I encountered relating to using Jest as a dev dependency so I have removed this from the package.json file.
 
 - Video 2:
+
   - We can use data-test to prevent a developer from going in and changing the class of a tag and potentially breaking a test.
     - This is a way to let someone know to not change this value because it may potentially break a test.
   - Functional Component vs Class Based Component
     - A difference is that in the class based components is that we can use lifecycle methods such as "componentDidMount() or classWillReceiveProps()."
   - Connected Components
     - Components that are connected to the Redux Store.
+
+- Video 3:
+  - I had an issue with not being able to find a module so I referred to this [thread](https://github.com/facebook/create-react-app/issues/7183) for a solution.
+    - I simply ran "npm add @babel/runtime" to resolve this issue and restarted the application.
+  - https://github.com/facebook/prop-types
+  - https://github.com/ratehub/check-prop-types
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
