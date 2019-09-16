@@ -10,6 +10,10 @@
 - Video 2:
   - We can use data-test to prevent a developer from going in and changing the class of a tag and potentially breaking a test.
     - This is a way to let someone know to not change this value because it may potentially break a test.
+  - Functional Component vs Class Based Component
+    - A difference is that in the class based components is that we can use lifecycle methods such as "componentDidMount() or classWillReceiveProps()."
+  - Connected Components
+    - Components that are connected to the Redux Store.
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
