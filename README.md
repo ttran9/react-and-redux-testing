@@ -17,10 +17,15 @@
     - Components that are connected to the Redux Store.
 
 - Video 3:
+
   - I had an issue with not being able to find a module so I referred to this [thread](https://github.com/facebook/create-react-app/issues/7183) for a solution.
     - I simply ran "npm add @babel/runtime" to resolve this issue and restarted the application.
   - https://github.com/facebook/prop-types
   - https://github.com/ratehub/check-prop-types
+
+- Video 4:
+  - installing dependencies for this video was done using the command below.
+    - npm i redux react-redux redux-thunk
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
