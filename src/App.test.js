@@ -37,4 +37,18 @@ describe("App Component", () => {
     const component = findByTestAttr(wrapper, "appComponent");
     expect(component.length).toBe(1);
   });
+
+  it("exampleMethod_updatesState Method should update state as expected", () => {
+    const classInstance = wrapper.instance(); // create an instance of the class from the shallow copy.
+    classInstance.exampleMethod_updatesState(); // fire the method.
+    const newState = classInstance.state.hideBtn;
+    expect(newState).toBe(true);
+  });
+
+  it("exampleMethod_returnsAValue Method should return value as expected", () => {
+    const classInstance = wrapper.instance();
+    const oldValue = 2;
+    const newValue = classInstance.exampleMethod_returnsAValue(oldValue);
+    expect(newValue).toBe(oldValue + 1);
+  });
 });
