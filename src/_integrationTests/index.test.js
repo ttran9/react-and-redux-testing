@@ -49,7 +49,7 @@ describe("fetchPosts action", () => {
         expect(newState.posts).toBe(expectedState);
       })
       .catch(err => {
-        console.log(err);
+        // console.log(err);
       });
   });
 });
