@@ -59,7 +59,7 @@
   - https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html
 
 - Video 9:
-  - fdsfds
+  - no notes..
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
