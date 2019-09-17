@@ -43,6 +43,7 @@
   - Starting at about 49m25s there is a discussion about moxios.install()
 
 - Video 7:
+
   - React-redux version 6 forced developers to no longer be able to pass the store in as a prop.
     - https://github.com/reduxjs/react-redux/issues/1161
     - The solution/workaround discussed in the video was written by "hjhimanshu01" (can search for this user name) and was written on March 18th, 2019.
@@ -51,8 +52,10 @@
     - npm view react versions
       - allows us to view react versions.
   - Enzyme gives us the "dive()" method which allows us to gain access to the component of interest.
-
     - The "childAt(0)" method call only gives us the declaration of the component but we have no access to contents inside of the component.
+
+- Video 8:
+  - https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
