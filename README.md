@@ -24,8 +24,15 @@
   - https://github.com/ratehub/check-prop-types
 
 - Video 4:
+
   - installing dependencies for this video was done using the command below.
     - npm i redux react-redux redux-thunk
+
+- Video 5:
+  - Pure function (reducers) vs Impure function
+    - Pure function returns a new piece of state.
+      - The pure function doesn't mutate or make any changes to anything outside the scope of that function.
+  - When working with reducers there shouldn't be any complex logic so all you want to do is return a new piece of state so you just take the payload and just return it.
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
