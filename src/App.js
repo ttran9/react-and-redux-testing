@@ -38,7 +38,7 @@ class App extends Component {
     };
 
     return (
-      <div className="App">
+      <div className="App" data-test="appComponent">
         <Header />
         <section className="main">
           <Headline
@@ -83,5 +83,5 @@ export const mapDispatchToProps = dispatch => ({
 
 export default connect(
   mapStateToProps,
-  { fetchPosts }
+  mapDispatchToProps
 )(App);
