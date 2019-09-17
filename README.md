@@ -55,7 +55,11 @@
     - The "childAt(0)" method call only gives us the declaration of the component but we have no access to contents inside of the component.
 
 - Video 8:
+
   - https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html
+
+- Video 9:
+  - fdsfds
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
