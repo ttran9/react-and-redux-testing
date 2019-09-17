@@ -59,7 +59,18 @@
   - https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html
 
 - Video 9:
+
   - no notes..
+
+- Video 10:
+
+  - git hooks can help developers prevent changes that are breaking tests from being committed.
+  - git hooks can be run when we try to commit or push changes to a branch.
+    - if any tests fail then we will prevent the commit or push.
+  - https://github.com/typicode/husky
+  - For the "pre-push" in the hooks it will run every time we try to push changes to the remote repository.
+    - This will run the test script we have been using.
+    - we use "CI=true" to disable the watch mode when running our tests script.
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
