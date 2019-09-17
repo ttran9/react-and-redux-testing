@@ -36,10 +36,23 @@
   - When working with reducers there shouldn't be any complex logic so all you want to do is return a new piece of state so you just take the payload and just return it.
 
 - Video 6:
+
   - npm i axios
   - In terms of the "\_integrationTests" directory we do this because since we are not testing a specific functionality to a component, reducer, actionCreator, etc we will just make a directory with an index.js file and then put our tests into there.
   - yarn add -D moxios
   - Starting at about 49m25s there is a discussion about moxios.install()
+
+- Video 7:
+  - React-redux version 6 forced developers to no longer be able to pass the store in as a prop.
+    - https://github.com/reduxjs/react-redux/issues/1161
+    - The solution/workaround discussed in the video was written by "hjhimanshu01" (can search for this user name) and was written on March 18th, 2019.
+    - npm view react-redux versions
+      - the above allows us to view the react-redux versions.
+    - npm view react versions
+      - allows us to view react versions.
+  - Enzyme gives us the "dive()" method which allows us to gain access to the component of interest.
+
+    - The "childAt(0)" method call only gives us the declaration of the component but we have no access to contents inside of the component.
 
 * Other Build Note(s):
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
